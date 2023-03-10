@@ -9,7 +9,7 @@ Ao iniciar o projeto, o usuário pode clicar no botão para obter um conselho al
 O código do projeto utiliza a função async/await para fazer a requisição à API e aguardar a resposta antes de continuar com a execução do código.
 
 ## Preview
-![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Advice generator app coding challenge](./assets/design/desktop-preview.jpg)
 
 **Este foi mais um desafio do Frontend Mentor onde pude fixar o que aprendi sobre requisições fetch e API's em geral. 🚀**
 
