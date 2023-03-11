@@ -9,15 +9,16 @@ async function fetchAdvice() {
     const adviceJson = await adviceResponse.json();
     
     adviceText.innerText = `"${adviceJson.slip.advice}"`;
-    adviceId.innerText = `Advice # ${adviceJson.slip.id}` 
+    adviceId.innerText = `Advice # ${adviceJson.slip.id}`; 
   }
-  catch {
+  catch(e) {
+    console.log(e);
     adviceText.innerText = `Error 404`;
-    adviceId.innerText = `Advice # ID`
+    adviceId.innerText = `Advice # ID`;
   }
   
 }
 
-fetchAdvice()
+fetchAdvice();
 
 adviceBtn.addEventListener('click', fetchAdvice);
